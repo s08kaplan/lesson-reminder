@@ -5,6 +5,7 @@
 }
 
 body {
+  height: 100vh;
   background: linear-gradient(
     90deg,
     rgba(121, 28, 157, 1) 0%,
@@ -13,55 +14,41 @@ body {
   );
 }
 
-/* ! SECTION */
-section {
-  margin: auto;
-  width: 80%;
-  border-radius: 1rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 1.5rem;
-  & img {
-    width: 15rem;
-    border-radius: 10px;
-  }
-  & .lesson {
-    color: coral;
-    & span {
-      color: darkturquoise;
-    }
-  }
-
-  & main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  & .section-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    padding: 1rem;
-  }
-}
-/* ? NAVBAR */
-
-.logo {
-  font-family: cursive;
-  font-size: 2rem;
-  color: white;
-  margin: 2rem;
-  & span {
-    color: #a52a90;
-  }
-}
 
 h1 {
-  color: red;
-  text-align: center;
+  color: blueviolet;
+  font-family: cursive;
 }
 
 
+img {
+  width: 200px;
+}
+
+.logo {
+  color: coral;
+  font-size: 2rem;
+  padding: 1rem;
+  & span {
+    color: turquoise;
+   
+  }
+}
+
+.card{
+  background-color: aquamarine;
+  margin-right:20px;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.section-div {
+  display: flex !important;
+}
+.lesson {
+  font-style: 1.5rem;
+  color: coral;
+  & span {
+    color: magenta;
+  }
+}

@@ -5,14 +5,18 @@ import "./App.css";
 function App() {
   return (
     <>
-     
-      <Header />
-      <h1>Lesson Reminder</h1>
-    <section>
-      <Lesson />
-    </section>
+     <Header />
+    <div  className="container">
+      <div>
+        <h1 className="text-center p-3">Lesson Reminder</h1>
+      </div>
+
+      <div className="lesson-main">
+        <Lesson />
+      </div>
+    </div>
     </>
-    
+     
   );
 }
 
